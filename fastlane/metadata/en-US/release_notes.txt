@@ -1,0 +1,5 @@
+Initial release of Koydo National Civil Service Exam China Prep.
+
+• Practice questions
+• Score tracking
+• AI tutor integration

@@ -1,0 +1,45 @@
+// National Civil Service Exam China Configuration
+// Generated from top_200_exam_universe_seed.csv
+
+export const EXAM_CONFIG = {
+  examId: "EXAM069",
+  slug: "national-civil-service-exam-china",
+  name: "National Civil Service Exam China",
+  fullName: "Guokao",
+  alias: "Guokao",
+  family: "Civil Service China",
+  category: "Government/civil service",
+  subcategory: "National civil service recruitment",
+  country: "China",
+  region: "East Asia",
+  languages: ["Chinese"],
+  estimatedAnnualTakers: "3.7M registered in 2025 cycle",
+  testingWindow: "Nov-Dec",
+  schedulePattern: "Annual",
+  ageGroup: "20-35",
+  targetUser: "Government job seeker",
+  delivery: "Paper-based/computer for some roles",
+  questionTypes: ["MCQ + essay"],
+  adaptivity: "Linear",
+  sections: "Administrative aptitude + essay",
+  scoringMode: "Cutoff + interview",
+  essayOrSpeaking: "Essay",
+  ipRisk: "Low",
+  contentReuse: "general_studies_aptitude",
+  uiEngine: "objective_plus_essay",
+  monetizationPotential: "High",
+  tier: "Tier 2",
+  launchWave: "Wave 4",
+  themeColor: "#0F766E",
+  themeColorDark: "#115E59",
+  localizationComplexity: "Low",
+  offlineNeeded: true,
+  mobileFirst: true,
+  locale: "zh-CN",
+  isRTL: false,
+  freemiumGate: {
+    dailyQuestions: 10,
+  },
+} as const;
+
+export type ExamConfig = typeof EXAM_CONFIG;
