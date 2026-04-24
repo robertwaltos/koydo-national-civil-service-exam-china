@@ -12,7 +12,7 @@ const DECKS = CONTENT_MANIFEST.topics.map((t, i) => ({
   title: `${t.title} Key Concepts`,
   icon: t.icon,
   color: t.color,
-  cardCount: Math.floor(t.minQuestionCount / 4),
+  cardCount: Math.floor(t.questionTarget / 4),
   free: i < 2,
 }));
 
@@ -66,3 +66,4 @@ export default async function FlashcardsPage({
     </div>
   );
 }
+
